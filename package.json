@@ -1,0 +1,40 @@
+{
+  "name": "sociopedia_backend",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "author": "Amalendu Pandey",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node build/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.15",
+    "@types/helmet": "^4.0.0",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/mongodb": "^4.0.7",
+    "@types/morgan": "^1.9.3",
+    "@types/multer": "^1.4.7",
+    "@types/multer-gridfs-storage": "^4.0.5",
+    "@types/node": "^18.11.17",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
